@@ -7,6 +7,7 @@
 //
 
 #import "YYLViewController.h"
+#import "YYLWebViewController.h"
 
 @interface YYLViewController ()
 
@@ -14,16 +15,18 @@
 
 @implementation YYLViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonClick:(id)sender {
+    YYLWebViewController *webViewControler = [[YYLWebViewController alloc] init];
+    [webViewControler loadWebWithURLString:@"http://www.yanyulin.top"];
+    [self.navigationController pushViewController:webViewControler animated:YES];
+    
+}
 @end

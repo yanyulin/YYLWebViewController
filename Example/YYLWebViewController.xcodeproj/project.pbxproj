@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37F04BE81F1F0B1C0062C0FC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 37F04BE41F1F0B1C0062C0FC /* .gitkeep */; };
+		37F04BED1F1F0C8C0062C0FC /* YYLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F04BEC1F1F0C8C0062C0FC /* YYLWebViewController.m */; };
+		37F04BF01F1F1A650062C0FC /* YYLWeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F04BEF1F1F1A650062C0FC /* YYLWeakScriptMessageDelegate.m */; };
+		37F04BF21F1F2E980062C0FC /* YYLWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 37F04BF11F1F2E980062C0FC /* YYLWebViewController.bundle */; };
 		3D03B0DF209DFE10B350AB0F /* Pods_YYLWebViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FA261CD1AA2F690C7C1850 /* Pods_YYLWebViewController_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -39,6 +43,12 @@
 /* Begin PBXFileReference section */
 		00B413D926DBF99A0F699966 /* Pods-YYLWebViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLWebViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYLWebViewController_Tests/Pods-YYLWebViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2BB03A0762B05C2B964B7262 /* Pods_YYLWebViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYLWebViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F04BE41F1F0B1C0062C0FC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		37F04BEB1F1F0C8C0062C0FC /* YYLWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLWebViewController.h; sourceTree = "<group>"; };
+		37F04BEC1F1F0C8C0062C0FC /* YYLWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLWebViewController.m; sourceTree = "<group>"; };
+		37F04BEE1F1F1A650062C0FC /* YYLWeakScriptMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLWeakScriptMessageDelegate.h; sourceTree = "<group>"; };
+		37F04BEF1F1F1A650062C0FC /* YYLWeakScriptMessageDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLWeakScriptMessageDelegate.m; sourceTree = "<group>"; };
+		37F04BF11F1F2E980062C0FC /* YYLWebViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YYLWebViewController.bundle; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YYLWebViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYLWebViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +73,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C0188DAC09162D28751DEEC /* Pods-YYLWebViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLWebViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYLWebViewController_Tests/Pods-YYLWebViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		97E7EC282D7CAC682A192338 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		97E7EC282D7CAC682A192338 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D5D5CB322DF1C18A05A61A7D /* Pods-YYLWebViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLWebViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYLWebViewController_Example/Pods-YYLWebViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F75DBBAFBC4E573966AACCAB /* YYLWebViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YYLWebViewController.podspec; path = ../YYLWebViewController.podspec; sourceTree = "<group>"; };
-		F9D440C19A7AF699BC56D53B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F75DBBAFBC4E573966AACCAB /* YYLWebViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YYLWebViewController.podspec; path = ../YYLWebViewController.podspec; sourceTree = "<group>"; };
+		F9D440C19A7AF699BC56D53B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +105,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37F04BE21F1F0B1C0062C0FC /* YYLWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				37F04BE31F1F0B1C0062C0FC /* Assets */,
+				37F04BE51F1F0B1C0062C0FC /* Classes */,
+			);
+			name = YYLWebViewController;
+			path = ../YYLWebViewController;
+			sourceTree = "<group>";
+		};
+		37F04BE31F1F0B1C0062C0FC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				37F04BF11F1F2E980062C0FC /* YYLWebViewController.bundle */,
+				37F04BE41F1F0B1C0062C0FC /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		37F04BE51F1F0B1C0062C0FC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				37F04BEB1F1F0C8C0062C0FC /* YYLWebViewController.h */,
+				37F04BEC1F1F0C8C0062C0FC /* YYLWebViewController.m */,
+				37F04BEE1F1F1A650062C0FC /* YYLWeakScriptMessageDelegate.h */,
+				37F04BEF1F1F1A650062C0FC /* YYLWeakScriptMessageDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				37F04BE21F1F0B1C0062C0FC /* YYLWebViewController */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for YYLWebViewController */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -256,7 +297,7 @@
 				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "YYLWebViewController" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -281,6 +322,8 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				37F04BF21F1F2E980062C0FC /* YYLWebViewController.bundle in Resources */,
+				37F04BE81F1F0B1C0062C0FC /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -394,6 +437,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F04BF01F1F1A650062C0FC /* YYLWeakScriptMessageDelegate.m in Sources */,
+				37F04BED1F1F0C8C0062C0FC /* YYLWebViewController.m in Sources */,
 				6003F59E195388D20070C39A /* YYLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YYLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -524,6 +569,7 @@
 			baseConfigurationReference = 602CC71C78750E97DA7B3F22 /* Pods-YYLWebViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R8A898NDDV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YYLWebViewController/YYLWebViewController-Prefix.pch";
 				INFOPLIST_FILE = "YYLWebViewController/YYLWebViewController-Info.plist";
@@ -539,6 +585,7 @@
 			baseConfigurationReference = D5D5CB322DF1C18A05A61A7D /* Pods-YYLWebViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R8A898NDDV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YYLWebViewController/YYLWebViewController-Prefix.pch";
 				INFOPLIST_FILE = "YYLWebViewController/YYLWebViewController-Info.plist";
