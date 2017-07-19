@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YYLWebViewController_Example' do
+  pod 'YYLWebViewController', :path => '../'
+
+  target 'YYLWebViewController_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
