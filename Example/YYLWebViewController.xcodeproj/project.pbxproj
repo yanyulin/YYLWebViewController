@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37398F2C1F30D90100C8249D /* yylwebloaderrorview.png in Resources */ = {isa = PBXBuildFile; fileRef = 37398F291F30D90100C8249D /* yylwebloaderrorview.png */; };
+		37398F2D1F30D90100C8249D /* yylwebviewcontroller_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37398F2A1F30D90100C8249D /* yylwebviewcontroller_nav_back@2x.png */; };
+		37398F2E1F30D90100C8249D /* yylwebviewcontroller_nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37398F2B1F30D90100C8249D /* yylwebviewcontroller_nav_back@3x.png */; };
 		37F04BE81F1F0B1C0062C0FC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 37F04BE41F1F0B1C0062C0FC /* .gitkeep */; };
 		37F04BED1F1F0C8C0062C0FC /* YYLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F04BEC1F1F0C8C0062C0FC /* YYLWebViewController.m */; };
 		37F04BF01F1F1A650062C0FC /* YYLWeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F04BEF1F1F1A650062C0FC /* YYLWeakScriptMessageDelegate.m */; };
-		37F04BF21F1F2E980062C0FC /* YYLWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 37F04BF11F1F2E980062C0FC /* YYLWebViewController.bundle */; };
 		3D03B0DF209DFE10B350AB0F /* Pods_YYLWebViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FA261CD1AA2F690C7C1850 /* Pods_YYLWebViewController_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -43,12 +45,14 @@
 /* Begin PBXFileReference section */
 		00B413D926DBF99A0F699966 /* Pods-YYLWebViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLWebViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYLWebViewController_Tests/Pods-YYLWebViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2BB03A0762B05C2B964B7262 /* Pods_YYLWebViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYLWebViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37398F291F30D90100C8249D /* yylwebloaderrorview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yylwebloaderrorview.png; sourceTree = "<group>"; };
+		37398F2A1F30D90100C8249D /* yylwebviewcontroller_nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yylwebviewcontroller_nav_back@2x.png"; sourceTree = "<group>"; };
+		37398F2B1F30D90100C8249D /* yylwebviewcontroller_nav_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yylwebviewcontroller_nav_back@3x.png"; sourceTree = "<group>"; };
 		37F04BE41F1F0B1C0062C0FC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		37F04BEB1F1F0C8C0062C0FC /* YYLWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLWebViewController.h; sourceTree = "<group>"; };
 		37F04BEC1F1F0C8C0062C0FC /* YYLWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLWebViewController.m; sourceTree = "<group>"; };
 		37F04BEE1F1F1A650062C0FC /* YYLWeakScriptMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLWeakScriptMessageDelegate.h; sourceTree = "<group>"; };
 		37F04BEF1F1F1A650062C0FC /* YYLWeakScriptMessageDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLWeakScriptMessageDelegate.m; sourceTree = "<group>"; };
-		37F04BF11F1F2E980062C0FC /* YYLWebViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YYLWebViewController.bundle; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YYLWebViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYLWebViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,7 +122,9 @@
 		37F04BE31F1F0B1C0062C0FC /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				37F04BF11F1F2E980062C0FC /* YYLWebViewController.bundle */,
+				37398F291F30D90100C8249D /* yylwebloaderrorview.png */,
+				37398F2A1F30D90100C8249D /* yylwebviewcontroller_nav_back@2x.png */,
+				37398F2B1F30D90100C8249D /* yylwebviewcontroller_nav_back@3x.png */,
 				37F04BE41F1F0B1C0062C0FC /* .gitkeep */,
 			);
 			path = Assets;
@@ -321,11 +327,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				37398F2E1F30D90100C8249D /* yylwebviewcontroller_nav_back@3x.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				37F04BF21F1F2E980062C0FC /* YYLWebViewController.bundle in Resources */,
 				37F04BE81F1F0B1C0062C0FC /* .gitkeep in Resources */,
+				37398F2C1F30D90100C8249D /* yylwebloaderrorview.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				37398F2D1F30D90100C8249D /* yylwebviewcontroller_nav_back@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +360,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		4992BEC4402FD43C2AF96C5A /* [CP] Embed Pods Frameworks */ = {
@@ -382,7 +390,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		BB04123EE87029EB6C102F60 /* [CP] Embed Pods Frameworks */ = {

@@ -294,8 +294,8 @@ static NSString * const kWebLoadErrorViewClick = @"kWebLoadErrorViewClick";
 - (UIBarButtonItem *)customerBackBarItem {
     if (!_customerBackBarItem) {
         UIButton *backButton = [[UIButton alloc] init];
-        [backButton setImage:[UIImage imageNamed:@"YYLWebViewController.bundle/webviewcontroller_nav_back"] forState:UIControlStateNormal];
-        [backButton setImage:[UIImage imageNamed:@"YYLWebViewController.bundle/webviewcontroller_nav_back"] forState:UIControlStateHighlighted];
+        [backButton setImage:[UIImage imageNamed:@"yylwebviewcontroller_nav_back"] forState:UIControlStateNormal];
+        [backButton setImage:[UIImage imageNamed:@"yylwebviewcontroller_nav_back"] forState:UIControlStateHighlighted];
         [backButton sizeToFit];
         [backButton addTarget:self action:@selector(customerBackBarItemClick:) forControlEvents:UIControlEventTouchUpInside];
         _customerBackBarItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
