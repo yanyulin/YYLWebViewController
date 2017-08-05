@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.ios.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
 
-    s.resources = 'YYLWebViewController/Assets/*.{png,xib,nib,bundle}'
-  s.source_files = 'YYLWebViewController/Classes/**/*'
-  
+  s.resources = 'YYLWebViewController/Assets/*.{png,xib,nib,bundle}'
+s.source_files = 'YYLWebViewController/Classes/*.{h,m}'
+
 #s.resource_bundles = {
 #    'YYLWebViewController' => ['YYLWebViewController/Assets/*']
 #}
