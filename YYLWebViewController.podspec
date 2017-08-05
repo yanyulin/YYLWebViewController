@@ -32,15 +32,13 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.ios.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
 
-  s.resources = 'YYLWebViewController/Assets/*.{png,xib,nib,bundle}'
-s.source_files = 'YYLWebViewController/Classes/*.{h,m}'
+  s.resources = 'YYLWebViewController/Assets/*'
+  s.source_files = 'YYLWebViewController/Classes/*.{h,m}'
 
 #s.resource_bundles = {
 #    'YYLWebViewController' => ['YYLWebViewController/Assets/*']
 #}
-
-#s.resource = 'YYLWebViewController/Assets/*'
-
+ 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

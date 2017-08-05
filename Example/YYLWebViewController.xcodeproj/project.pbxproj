@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3704FC2C1F354D870052D0CE /* yyweb.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3704FC2B1F354D870052D0CE /* yyweb.bundle */; };
+		3704FC321F3556E10052D0CE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3704FC311F3556E10052D0CE /* Media.xcassets */; };
 		37398F2C1F30D90100C8249D /* yylwebloaderrorview.png in Resources */ = {isa = PBXBuildFile; fileRef = 37398F291F30D90100C8249D /* yylwebloaderrorview.png */; };
 		37398F2D1F30D90100C8249D /* yylwebviewcontroller_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37398F2A1F30D90100C8249D /* yylwebviewcontroller_nav_back@2x.png */; };
 		37398F2E1F30D90100C8249D /* yylwebviewcontroller_nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37398F2B1F30D90100C8249D /* yylwebviewcontroller_nav_back@3x.png */; };
@@ -47,6 +48,7 @@
 		00B413D926DBF99A0F699966 /* Pods-YYLWebViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLWebViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYLWebViewController_Tests/Pods-YYLWebViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2BB03A0762B05C2B964B7262 /* Pods_YYLWebViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYLWebViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3704FC2B1F354D870052D0CE /* yyweb.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = yyweb.bundle; sourceTree = "<group>"; };
+		3704FC311F3556E10052D0CE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		37398F291F30D90100C8249D /* yylwebloaderrorview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yylwebloaderrorview.png; sourceTree = "<group>"; };
 		37398F2A1F30D90100C8249D /* yylwebviewcontroller_nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yylwebviewcontroller_nav_back@2x.png"; sourceTree = "<group>"; };
 		37398F2B1F30D90100C8249D /* yylwebviewcontroller_nav_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yylwebviewcontroller_nav_back@3x.png"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				37398F2B1F30D90100C8249D /* yylwebviewcontroller_nav_back@3x.png */,
 				37F04BE41F1F0B1C0062C0FC /* .gitkeep */,
 				3704FC2B1F354D870052D0CE /* yyweb.bundle */,
+				3704FC311F3556E10052D0CE /* Media.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3704FC321F3556E10052D0CE /* Media.xcassets in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				37398F2E1F30D90100C8249D /* yylwebviewcontroller_nav_back@3x.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
