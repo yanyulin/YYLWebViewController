@@ -293,6 +293,9 @@ static NSString * const kWebLoadErrorViewClick = @"kWebLoadErrorViewClick";
 
 - (UIBarButtonItem *)customerBackBarItem {
     if (!_customerBackBarItem) {
+        
+        UIImage *iimage = [UIImage imageNamed:@"yyweb.bundle/aaaaa.png"];
+        
         UIButton *backButton = [[UIButton alloc] init];
         [backButton setImage:[UIImage imageNamed:@"yylwebviewcontroller_nav_back"] forState:UIControlStateNormal];
         [backButton setImage:[UIImage imageNamed:@"yylwebviewcontroller_nav_back"] forState:UIControlStateHighlighted];
