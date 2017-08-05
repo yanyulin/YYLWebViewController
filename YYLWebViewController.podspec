@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 #    'YYLWebViewController' => ['YYLWebViewController/Assets/*']
 #}
 
-  s.resource = 'YYLWebViewController/Assets/YYLWebViewController.bundle'
+  s.resource = 'YYLWebViewController/Assets/*'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
