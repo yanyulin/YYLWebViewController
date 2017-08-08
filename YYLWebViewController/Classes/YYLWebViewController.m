@@ -167,7 +167,7 @@ static NSString * const kWebLoadErrorViewClick = @"kWebLoadErrorViewClick";
 
 #pragma mark - Event
 - (void)leftBarbuttonItemClick:(UIBarButtonItem *)barButtonItem {
-    self.webViewLoadType = YYLWebViewLoadTypeURLString;
+    self.webViewLoadType = YYLWebViewLoadTypeHTMLString;
     [self loadURLType];
 }
 
@@ -218,8 +218,7 @@ static NSString * const kWebLoadErrorViewClick = @"kWebLoadErrorViewClick";
 }
 
 - (void)webView:(WKWebView *)webView didFailProvisionalNavigation:(WKNavigation *)navigation withError:(NSError *)error {
-    self.webViewLoadType = YYLWebViewLoadTypeURLString;
-    
+    self.webViewLoadType = YYLWebViewLoadTypeErrorString;
     [self loadURLType];
 }
 
@@ -228,7 +227,7 @@ static NSString * const kWebLoadErrorViewClick = @"kWebLoadErrorViewClick";
     //拦截执行 js 中的网页方法
     if ([message.name isEqualToString:kWebLoadErrorViewClick]) {
         //请求出错重试
-        self.webViewLoadType = YYLWebViewLoadTypeErrorString;
+        self.webViewLoadType = YYLWebViewLoadTypeHTMLString;
         [self loadURLType];
     }
 }
