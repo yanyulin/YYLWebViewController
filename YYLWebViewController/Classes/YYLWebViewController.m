@@ -107,11 +107,11 @@ static NSString * const kWebLoadErrorViewClick = @"kWebLoadErrorViewClick";
  */
 - (void)loadHostPathURL:(NSString *)url {
     //获取 html 文件的路径
-    NSString *path = [[NSBundle mainBundle] pathForResource:url ofType:@"html"];
+    NSString *path = [[NSBundle bundleForClass:self.class] pathForResource:url ofType:@"html"];
     //获取 html 内容
     NSString *html = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
     //加载 html
-    [self.wkwebView loadHTMLString:html baseURL:[[NSBundle mainBundle] bundleURL]];
+    [self.wkwebView loadHTMLString:html baseURL:[[NSBundle bundleForClass:self.class] bundleURL]];
 }
 
 - (void)loadWebWithURLString:(NSString *)urlString {
