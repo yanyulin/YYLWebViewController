@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YYLWebViewController'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '网页视图加载控制器'
 
 # This description is used to generate tags and improve search results.
