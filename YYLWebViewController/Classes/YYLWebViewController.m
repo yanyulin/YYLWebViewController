@@ -167,7 +167,8 @@ static NSString * const kWebLoadErrorViewClick = @"kWebLoadErrorViewClick";
 
 #pragma mark - Event
 - (void)leftBarbuttonItemClick:(UIBarButtonItem *)barButtonItem {
-    
+    self.webViewLoadType = YYLWebViewLoadTypeURLString;
+    [self loadURLType];
 }
 
 - (void)customerBackBarItemClick:(UIButton *)button {
@@ -217,7 +218,7 @@ static NSString * const kWebLoadErrorViewClick = @"kWebLoadErrorViewClick";
 }
 
 - (void)webView:(WKWebView *)webView didFailProvisionalNavigation:(WKNavigation *)navigation withError:(NSError *)error {
-    self.webViewLoadType = YYLWebViewLoadTypeErrorString;
+    self.webViewLoadType = YYLWebViewLoadTypeURLString;
     [self loadURLType];
 }
 
