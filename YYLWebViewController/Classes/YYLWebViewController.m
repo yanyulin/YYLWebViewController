@@ -219,6 +219,7 @@ static NSString * const kWebLoadErrorViewClick = @"kWebLoadErrorViewClick";
 
 - (void)webView:(WKWebView *)webView didFailProvisionalNavigation:(WKNavigation *)navigation withError:(NSError *)error {
     self.webViewLoadType = YYLWebViewLoadTypeURLString;
+    
     [self loadURLType];
 }
 
