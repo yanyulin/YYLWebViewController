@@ -18,7 +18,7 @@ typedef enum : NSUInteger {
 
 static void *WkwebBrowserContext = &WkwebBrowserContext;
 
-static NSString * const kWebLoadErrorViewClick = @"kWebLoadErrorViewClick";
+static NSString * const kWebLoadErrorViewClick = @"webLoadErrorViewClick";
 
 
 @interface YYLWebViewController ()<WKNavigationDelegate,WKUIDelegate,WKScriptMessageHandler,UINavigationControllerDelegate,UINavigationBarDelegate>
