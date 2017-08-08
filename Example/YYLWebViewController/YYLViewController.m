@@ -25,7 +25,7 @@
 
 - (IBAction)buttonClick:(id)sender {
     YYLWebViewController *webViewControler = [[YYLWebViewController alloc] init];
-    [webViewControler loadWebWithURLString:@"http://www.yanyulin.top"];
+    [webViewControler loadWebWithURLString:@"df"];
     [self.navigationController pushViewController:webViewControler animated:YES];
     
 }

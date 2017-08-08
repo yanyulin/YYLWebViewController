@@ -294,8 +294,10 @@ static NSString * const kWebLoadErrorViewClick = @"kWebLoadErrorViewClick";
 - (UIBarButtonItem *)customerBackBarItem {
     if (!_customerBackBarItem) { 
         UIButton *backButton = [[UIButton alloc] init];
-        [backButton setImage:[UIImage imageNamed:@"yylwebviewcontroller_nav_back" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil] forState:UIControlStateNormal];
-        [backButton setImage:[UIImage imageNamed:@"yylwebviewcontroller_nav_back" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil] forState:UIControlStateHighlighted];
+        
+        
+        [backButton setImage:[UIImage imageNamed:@"YYLWebViewController.bundle/yylwebviewcontroller_nav_back" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil] forState:UIControlStateNormal];
+        [backButton setImage:[UIImage imageNamed:@"YYLWebViewController.bundle/yylwebviewcontroller_nav_back" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil] forState:UIControlStateHighlighted];
         [backButton sizeToFit];
         [backButton addTarget:self action:@selector(customerBackBarItemClick:) forControlEvents:UIControlEventTouchUpInside];
         _customerBackBarItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
@@ -317,15 +319,6 @@ static NSString * const kWebLoadErrorViewClick = @"kWebLoadErrorViewClick";
     }
     return _snapShotsArrayM;
 }
-
-
-
-
-
-
-
-
-
 
 
 @end
